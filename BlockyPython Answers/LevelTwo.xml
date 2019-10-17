@@ -1,0 +1,1246 @@
+<!-- Answer 1 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="L@gGmK.4mkp]{hI-ze:T">age</variable>
+  </variables>
+  <block type="variables_set" id="DQ?NkJ|;DhH:yIR_(u(p" x="238" y="-62">
+    <field name="VAR" id="L@gGmK.4mkp]{hI-ze:T">age</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="BN_zgrepb_M0)Nci5D5X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="B3W1Nbhtj|V)cA*/8K({">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id=",o:8H*_HZch7|6gKI:Ks">
+            <field name="TEXT">What age are you? </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="D:qt3L|{gz=!){A;0]rz">
+        <value name="TEXT">
+          <shadow type="text" id="]^x#EG1~rayFnuY0z4eI">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text_join" id="!!%PN%FKcXSLgIM!(k+=">
+            <mutation items="3"/>
+            <value name="ADD0">
+              <block type="text" id="EwI/AN${7+/rTSEjXjM3">
+                <field name="TEXT">At your next birthday, you will be </field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="math_arithmetic" id="JuSeQC3WN6pRTJf0739u">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <shadow type="math_number" id="gJ~H.A3xg-@o__M$9G`$">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="Ydy55wXK|50%qlw1k3@|">
+                    <field name="VAR" id="L@gGmK.4mkp]{hI-ze:T">age</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="p1{eU*G]=Wt2sqU[cixT">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="K+3M+qWq5w!?f#-#e.%v">
+                <field name="TEXT"> years old.</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 2 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="L@gGmK.4mkp]{hI-ze:T">age</variable>
+  </variables>
+  <block type="variables_set" id="DQ?NkJ|;DhH:yIR_(u(p" x="238" y="-62">
+    <field name="VAR" id="L@gGmK.4mkp]{hI-ze:T">age</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="BN_zgrepb_M0)Nci5D5X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="B3W1Nbhtj|V)cA*/8K({">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id=",o:8H*_HZch7|6gKI:Ks">
+            <field name="TEXT">What age are you? </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="D:qt3L|{gz=!){A;0]rz">
+        <value name="TEXT">
+          <shadow type="text" id="]^x#EG1~rayFnuY0z4eI">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text_join" id="!!%PN%FKcXSLgIM!(k+=">
+            <mutation items="2"/>
+            <value name="ADD0">
+              <block type="text" id="EwI/AN${7+/rTSEjXjM3">
+                <field name="TEXT">If you were twice as old, you’d be </field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="math_arithmetic" id="JuSeQC3WN6pRTJf0739u">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <shadow type="math_number" id="gJ~H.A3xg-@o__M$9G`$">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="Ydy55wXK|50%qlw1k3@|">
+                    <field name="VAR" id="L@gGmK.4mkp]{hI-ze:T">age</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="p1{eU*G]=Wt2sqU[cixT">
+                    <field name="NUM">2</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 3 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="4!PPT3s3Hf-|/X)[/pTb">word</variable>
+  </variables>
+  <block type="variables_set" id="w+mN6d[l|;f)~FkObWuo" x="63" y="-162">
+    <field name="VAR" id="4!PPT3s3Hf-|/X)[/pTb">word</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="B3H]]^_+{U+^Z%.rq[WW">
+        <mutation type="TEXT"/>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="Z@~:Lv#x`usD^?Dg92f,">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="$}2BTu`yb)w11VqQ1uD8">
+            <field name="TEXT">Enter a word: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="text_print" id="0xHeajGmPccxA%1G_fhO">
+        <value name="TEXT">
+          <shadow type="text" id="9hNHo,3(tkno^AAtL3~C">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text_join" id="fkI.3e1ls,v3/KGU#0iR">
+            <mutation items="5"/>
+            <value name="ADD0">
+              <block type="text" id="H^b5plCIL!*SsN9|U`}=">
+                <field name="TEXT">The word </field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="variables_get" id="yJo)sdd3KrUl$DSEwLET">
+                <field name="VAR" id="4!PPT3s3Hf-|/X)[/pTb">word</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="text" id="|sOqq,NXU)%cyV(]e@VT">
+                <field name="TEXT"> has </field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="text_length" id="34+CehsFSRm.0=Z)mHEh">
+                <value name="VALUE">
+                  <shadow type="text" id="V?R{;uGu?Mgi9oNi^K1%">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="variables_get" id="e?*pyA~b!%8j(thv@mJZ">
+                    <field name="VAR" id="4!PPT3s3Hf-|/X)[/pTb">word</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="ADD4">
+              <block type="text" id="j7rnX@k2xri]v#UgGe?6">
+                <field name="TEXT"> letters.</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 4 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="4!PPT3s3Hf-|/X)[/pTb">word</variable>
+  </variables>
+  <block type="variables_set" id="w+mN6d[l|;f)~FkObWuo" x="63" y="-162">
+    <field name="VAR" id="4!PPT3s3Hf-|/X)[/pTb">word</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="B3H]]^_+{U+^Z%.rq[WW">
+        <mutation type="TEXT"/>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="Z@~:Lv#x`usD^?Dg92f,">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="$}2BTu`yb)w11VqQ1uD8">
+            <field name="TEXT">Enter a 4-letter word: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_if" id="bc7u7VgXgllH8!ovB.%5">
+        <mutation else="1"/>
+        <value name="IF0">
+          <block type="logic_compare" id="8NsmiJ=sy5A7XD52966h">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="text_length" id="34+CehsFSRm.0=Z)mHEh">
+                <value name="VALUE">
+                  <shadow type="text" id="V?R{;uGu?Mgi9oNi^K1%">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="variables_get" id="e?*pyA~b!%8j(thv@mJZ">
+                    <field name="VAR" id="4!PPT3s3Hf-|/X)[/pTb">word</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="zz+@KxIC?)@bKFJLWx3a">
+                <field name="NUM">4</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="text_print" id="0xHeajGmPccxA%1G_fhO">
+            <value name="TEXT">
+              <shadow type="text" id="9hNHo,3(tkno^AAtL3~C">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="j7rnX@k2xri]v#UgGe?6">
+                <field name="TEXT">Correct! That is a 4-letter word.</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="text_print" id="!Y}*UPP[/|+3~N%Zf:ja">
+            <value name="TEXT">
+              <shadow type="text">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="#9lXam|-]-2CVJc}Yy,n">
+                <field name="TEXT">Wrong! That is not a 4-letter word.</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 5 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="tif.kfx()@6/5cqMx,YI">first_num</variable>
+    <variable id="6(*mB_Y1W0)O^PCYMJ/r">second_num</variable>
+  </variables>
+  <block type="variables_set" id="jcc2S!{B+BPT424s[b)A" x="-38" y="-187">
+    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">first_num</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="Q(AU|Sl){=3pqB@-jK9X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="0;tTtd*%uE|Fh~|#{gK]">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="w49(7eHH?$l/3vI+V3*5">
+            <field name="TEXT">Enter a number: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="nc[xZx7qYhnf[Whl/j]1">
+        <field name="VAR" id="6(*mB_Y1W0)O^PCYMJ/r">second_num</field>
+        <value name="VALUE">
+          <block type="text_prompt_ext" id="XsQ`]sfb^HcqYj.Bu@,e">
+            <mutation type="NUMBER"/>
+            <field name="TYPE">NUMBER</field>
+            <value name="TEXT">
+              <shadow type="text" id="4T75g.*fzwF;T@xbxHde">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="9r[=R|:@bLV9vPd0K%Eh">
+                <field name="TEXT">Enter a different number: </field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="b~}k2D/4fr.c1+B4f(E|">
+            <mutation else="1"/>
+            <value name="IF0">
+              <block type="logic_compare" id="f^FOFCZ*zm,C$|z+(W1x">
+                <field name="OP">NEQ</field>
+                <value name="A">
+                  <block type="variables_get" id="8gNA)+1-q:0kGGX$-j6e">
+                    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">first_num</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="7W./C?`?-HC%O0wYMmo,">
+                    <field name="VAR" id="6(*mB_Y1W0)O^PCYMJ/r">second_num</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="text_print" id="lIDtqC?`Cq/ZQ7h.mwnr">
+                <value name="TEXT">
+                  <shadow type="text" id="~kUjcFP`O(!X3@kBvy]*">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text" id="sFX=5+yTUB__C*GfCAWE">
+                    <field name="TEXT">Correct! They are different numbers.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="text_print" id=".1C`^U%n+zUBbvGLJn|+">
+                <value name="TEXT">
+                  <shadow type="text">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text" id="D)Rnm3[bz*UH=_}).K%h">
+                    <field name="TEXT">Wrong! They are the same numbers.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 6 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="tif.kfx()@6/5cqMx,YI">num</variable>
+  </variables>
+  <block type="variables_set" id="jcc2S!{B+BPT424s[b)A" x="-12" y="-187">
+    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="Q(AU|Sl){=3pqB@-jK9X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="0;tTtd*%uE|Fh~|#{gK]">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="w49(7eHH?$l/3vI+V3*5">
+            <field name="TEXT">Enter a small number: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_if" id="b~}k2D/4fr.c1+B4f(E|">
+        <mutation elseif="1" else="1"/>
+        <value name="IF0">
+          <block type="logic_compare" id="f^FOFCZ*zm,C$|z+(W1x">
+            <field name="OP">LTE</field>
+            <value name="A">
+              <block type="variables_get" id="8gNA)+1-q:0kGGX$-j6e">
+                <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="U|0JJ7t|Z==(NJE_7tgo">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="text_print" id="lIDtqC?`Cq/ZQ7h.mwnr">
+            <value name="TEXT">
+              <shadow type="text" id="~kUjcFP`O(!X3@kBvy]*">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="sFX=5+yTUB__C*GfCAWE">
+                <field name="TEXT">That number is a good choice!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="]HapY6]e5~xpATx(~{+@">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="variables_get" id="g%1CFtT.AcDrHTLTWDWZ">
+                <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="a^n=W;n_OiT6Nbu2X3]#">
+                <field name="NUM">100</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="text_print" id="stjYig1^OcQAu4f(*8Ps">
+            <value name="TEXT">
+              <shadow type="text" id="JQuK=r[@DK-/[E9Q+uZP">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="PPqX!_oD3ZGljQe=n$-a">
+                <field name="TEXT">That number is too big.</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="text_print" id=".1C`^U%n+zUBbvGLJn|+">
+            <value name="TEXT">
+              <shadow type="text">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="D)Rnm3[bz*UH=_}).K%h">
+                <field name="TEXT">That number is way too big!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 7 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="tif.kfx()@6/5cqMx,YI">num</variable>
+    <variable id="r:s,iWo/FC!T#L`(hJ:D">i</variable>
+  </variables>
+  <block type="variables_set" id="jcc2S!{B+BPT424s[b)A" x="-12" y="-187">
+    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="Q(AU|Sl){=3pqB@-jK9X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="0;tTtd*%uE|Fh~|#{gK]">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="w49(7eHH?$l/3vI+V3*5">
+            <field name="TEXT">Enter a number: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_for" id=")#7D18_MdDKX|cE=:PFy">
+        <field name="VAR" id="r:s,iWo/FC!T#L`(hJ:D">i</field>
+        <value name="FROM">
+          <shadow type="math_number" id="m{i*k{Ipn{MbS3CnUG*D">
+            <field name="NUM">1</field>
+          </shadow>
+          <block type="math_number" id="LAY,(bR:~LtYuPmMGH6w">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="TO">
+          <shadow type="math_number" id="9`szmHtBEh.9l-yUAwHd">
+            <field name="NUM">10</field>
+          </shadow>
+          <block type="math_number" id="e1:P1Mqg{,V=crE06{J!">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="BY">
+          <shadow type="math_number" id="oC@-ST)67cPn:ZdZf.XT">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="text_print" id="O0x,j0E*WoIvZ3_2gt^i">
+            <value name="TEXT">
+              <shadow type="text" id="H4odwy3;Su7{J{[z*,:F">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text_join" id="k)5*w!s,TR78{2{}Wmdk">
+                <mutation items="5"/>
+                <value name="ADD0">
+                  <block type="variables_get" id="Z_1YniZr1(HLG/OHzFbs">
+                    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="text" id="3.HKWr!n!^e]i85z2tT#">
+                    <field name="TEXT"> x </field>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block type="variables_get" id="Z=+pw*f,nn+]hBxcYC$]">
+                    <field name="VAR" id="r:s,iWo/FC!T#L`(hJ:D">i</field>
+                  </block>
+                </value>
+                <value name="ADD3">
+                  <block type="text" id="`DK5`NmN:E3@u-+8v)o{">
+                    <field name="TEXT"> = </field>
+                  </block>
+                </value>
+                <value name="ADD4">
+                  <block type="math_arithmetic" id="(Q!O+Gzj]u4ggJa5U4W,">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <shadow type="math_number" id="nc!H=ZBPOB9?=e][ySuz">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="variables_get" id="k$tJraC6!`ao~k:PTETm">
+                        <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <shadow type="math_number" id="9e{(SEO2QQNw#{qYc6H.">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="variables_get" id=".|N$oYW+pc^uJi;-s^Jg">
+                        <field name="VAR" id="r:s,iWo/FC!T#L`(hJ:D">i</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 8 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="tif.kfx()@6/5cqMx,YI">num</variable>
+  </variables>
+  <block type="variables_set" id="jcc2S!{B+BPT424s[b)A" x="-12" y="-187">
+    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="Q(AU|Sl){=3pqB@-jK9X">
+        <mutation type="NUMBER"/>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="0;tTtd*%uE|Fh~|#{gK]">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="w49(7eHH?$l/3vI+V3*5">
+            <field name="TEXT">Enter a number: </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_if" id="=F}%r1L:CK^dC[[EZGWz">
+        <mutation else="1"/>
+        <value name="IF0">
+          <block type="logic_compare" id="+hhdMH9Y=Mc/NI3nAh[1">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="NT~iOTeTxq?Ul~a@9.6^">
+                <value name="DIVIDEND">
+                  <shadow type="math_number" id="JO06s/(Q;wrH{#~X|ZM?">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="variables_get" id="Kr$I:b$XGuEwbBtlflgk">
+                    <field name="VAR" id="tif.kfx()@6/5cqMx,YI">num</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number" id="rZs?YK512k[nPo~Sp?TY">
+                    <field name="NUM">2</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="d/PqX2b(38XZFa(~cb5@">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="text_print" id="O0x,j0E*WoIvZ3_2gt^i">
+            <value name="TEXT">
+              <shadow type="text" id="H4odwy3;Su7{J{[z*,:F">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="3.HKWr!n!^e]i85z2tT#">
+                <field name="TEXT">Your number is even.</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="text_print" id="nPx,G(SFPqd4J]89^|2%">
+            <value name="TEXT">
+              <shadow type="text">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="6wui$wO$K$I7an,V!M{$">
+                <field name="TEXT">Your number is odd.</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 9.1 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="procedures_defreturn" id="=](nFVPo+v?M!g@Kk0O6" x="488" y="63">
+    <field name="NAME">random10</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <value name="RETURN">
+      <block type="math_random_int" id="frorf2tcLG3?4el},nl#">
+        <value name="FROM">
+          <shadow type="math_number" id="fx)7hg8s_[pTM7j37O?W">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number" id="1Wpprc?/HX:Q}}-4G7mZ">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="controls_repeat_ext" id=",!19sGStRIpv`D0z8ZqG" x="488" y="163">
+    <value name="TIMES">
+      <shadow type="math_number" id="X{=#c`$0zF5k][oerwH5">
+        <field name="NUM">3</field>
+      </shadow>
+      <block type="math_number" id="i@CJ}?]y;)O)#b!8b|z=">
+        <field name="NUM">3</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="text_print" id="PV6{!T+P4qSxy`aZ|D6i">
+        <value name="TEXT">
+          <shadow type="text" id="g#1x:7Hb`5H]v()u/w}u">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="procedures_callreturn" id="4G=6nS_MLl~0sClx#V0U">
+            <mutation name="random10"/>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>
+
+
+<!-- Answer 9.2 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="K9N;@3-^tT6?0O$6)Fct">total_random</variable>
+    <variable id="0,kT~8l}v{fp-yJR_2yD">random_num</variable>
+  </variables>
+  <block type="procedures_defreturn" id="=](nFVPo+v?M!g@Kk0O6" x="488" y="63">
+    <field name="NAME">random10</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <value name="RETURN">
+      <block type="math_random_int" id="frorf2tcLG3?4el},nl#">
+        <value name="FROM">
+          <shadow type="math_number" id="fx)7hg8s_[pTM7j37O?W">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number" id="1Wpprc?/HX:Q}}-4G7mZ">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="jlRtpVGs6H9/|@Isgr!k" x="488" y="163">
+    <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+    <value name="VALUE">
+      <block type="math_number" id="0x]u|cDA=|p{9MGh6ddI">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_repeat_ext" id=",!19sGStRIpv`D0z8ZqG">
+        <value name="TIMES">
+          <shadow type="math_number" id="X{=#c`$0zF5k][oerwH5">
+            <field name="NUM">3</field>
+          </shadow>
+          <block type="math_number" id="i@CJ}?]y;)O)#b!8b|z=">
+            <field name="NUM">3</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="Jyfk:iK?=rE1wC0xs~DB">
+            <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+            <value name="VALUE">
+              <block type="procedures_callreturn" id="4G=6nS_MLl~0sClx#V0U">
+                <mutation name="random10"/>
+              </block>
+            </value>
+            <next>
+              <block type="math_change" id="|,OJpvVx0mr4q|{W.%}z">
+                <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+                <value name="DELTA">
+                  <shadow type="math_number" id="luytJ.cA(#8u|(?=5:3C">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="_^neQ!8mt$TH{/x{2w.o">
+                    <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="text_print" id="PV6{!T+P4qSxy`aZ|D6i">
+                    <value name="TEXT">
+                      <shadow type="text" id="g#1x:7Hb`5H]v()u/w}u">
+                        <field name="TEXT">abc</field>
+                      </shadow>
+                      <block type="variables_get" id="AX]|+=o$CD#sfj9M]w;k">
+                        <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="text_print" id="Vu;vEKWz-;!;v2P?TYt~">
+            <value name="TEXT">
+              <shadow type="text" id="YuV4:W|KGQ@WPwhD%GV!">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text_join" id="!~;s!%0!z3OG(w:s^v8M">
+                <mutation items="2"/>
+                <value name="ADD0">
+                  <block type="text" id="U74z_Bx}NC_.Z%D1MVY?">
+                    <field name="TEXT">Total = </field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="variables_get" id="jn$S#_VjG[o.-]ev10o[">
+                    <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
+
+
+<!-- Answer 9.3 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="O-y~g,[08Jn(=#[)nX(B">count_random</variable>
+    <variable id="K9N;@3-^tT6?0O$6)Fct">total_random</variable>
+    <variable id="0,kT~8l}v{fp-yJR_2yD">random_num</variable>
+  </variables>
+  <block type="procedures_defreturn" id="=](nFVPo+v?M!g@Kk0O6" x="488" y="-12">
+    <field name="NAME">random10</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <value name="RETURN">
+      <block type="math_random_int" id="frorf2tcLG3?4el},nl#">
+        <value name="FROM">
+          <shadow type="math_number" id="fx)7hg8s_[pTM7j37O?W">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="TO">
+          <shadow type="math_number" id="1Wpprc?/HX:Q}}-4G7mZ">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="}t9S/c[cEx}hEhba_JHA" x="487" y="88">
+    <field name="VAR" id="O-y~g,[08Jn(=#[)nX(B">count_random</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="YVv~$JSkE%c=UJ[j0SL}">
+        <mutation type="TEXT"/>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="!.+Q}FIPxWsM-Ux=Nz,%">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="*?BGNes(`acLt_pAfeH-">
+            <field name="TEXT">How many random numbers? </field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="jlRtpVGs6H9/|@Isgr!k">
+        <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+        <value name="VALUE">
+          <block type="math_number" id="0x]u|cDA=|p{9MGh6ddI">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_repeat_ext" id=",!19sGStRIpv`D0z8ZqG">
+            <value name="TIMES">
+              <shadow type="math_number" id="X{=#c`$0zF5k][oerwH5">
+                <field name="NUM">3</field>
+              </shadow>
+              <block type="variables_get" id="Q=kLK`+M.Rb(d?i!HsX|">
+                <field name="VAR" id="O-y~g,[08Jn(=#[)nX(B">count_random</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="variables_set" id="Jyfk:iK?=rE1wC0xs~DB">
+                <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+                <value name="VALUE">
+                  <block type="procedures_callreturn" id="4G=6nS_MLl~0sClx#V0U">
+                    <mutation name="random10"/>
+                  </block>
+                </value>
+                <next>
+                  <block type="math_change" id="|,OJpvVx0mr4q|{W.%}z">
+                    <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+                    <value name="DELTA">
+                      <shadow type="math_number" id="luytJ.cA(#8u|(?=5:3C">
+                        <field name="NUM">1</field>
+                      </shadow>
+                      <block type="variables_get" id="_^neQ!8mt$TH{/x{2w.o">
+                        <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="text_print" id="PV6{!T+P4qSxy`aZ|D6i">
+                        <value name="TEXT">
+                          <shadow type="text" id="g#1x:7Hb`5H]v()u/w}u">
+                            <field name="TEXT">abc</field>
+                          </shadow>
+                          <block type="variables_get" id="AX]|+=o$CD#sfj9M]w;k">
+                            <field name="VAR" id="0,kT~8l}v{fp-yJR_2yD">random_num</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="text_print" id="Vu;vEKWz-;!;v2P?TYt~">
+                <value name="TEXT">
+                  <shadow type="text" id="YuV4:W|KGQ@WPwhD%GV!">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text_join" id="!~;s!%0!z3OG(w:s^v8M">
+                    <mutation items="2"/>
+                    <value name="ADD0">
+                      <block type="text" id="U74z_Bx}NC_.Z%D1MVY?">
+                        <field name="TEXT">Total = </field>
+                      </block>
+                    </value>
+                    <value name="ADD1">
+                      <block type="variables_get" id="jn$S#_VjG[o.-]ev10o[">
+                        <field name="VAR" id="K9N;@3-^tT6?0O$6)Fct">total_random</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
+
+<!-- Answer 10.1 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="j|)E.STabg43MEz@hPSI">i</variable>
+    <variable id="o,}g|Oa|Mh|c#`RBNj(@">msg</variable>
+  </variables>
+  <block type="controls_for" id="MaF^^%Fi^l}/T!==Uun1" x="363" y="113">
+    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+    <value name="FROM">
+      <shadow type="math_number" id="rR1]L^=l}u=W)t_1h5n3">
+        <field name="NUM">1</field>
+      </shadow>
+    </value>
+    <value name="TO">
+      <shadow type="math_number" id="h.bM;.tFn@enRP;N2@%C">
+        <field name="NUM">50</field>
+      </shadow>
+    </value>
+    <value name="BY">
+      <shadow type="math_number" id="ZzM-f?tCB(O[WvWeJz~x">
+        <field name="NUM">1</field>
+      </shadow>
+    </value>
+    <statement name="DO">
+      <block type="controls_if" id=".h[?4vdU+vWf8iv*(`Iz">
+        <mutation elseif="1" else="1"/>
+        <value name="IF0">
+          <block type="logic_compare" id="W@}RbgC.,sTgvEcHfSIU">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="H(@Mw)mm_6d#kLZqD`zS">
+                <value name="DIVIDEND">
+                  <shadow type="math_number">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="variables_get" id="!CnqQPIE8LW$4(v#=ifz">
+                    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number">
+                    <field name="NUM">3</field>
+                  </shadow>
+                  <block type="math_number" id="CZa+.$^|Hdh4fm]h[|ip">
+                    <field name="NUM">3</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="1$8XTevWjuNcbwGwnq=f">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="}Y,rS/fXp6qb*#uj71Ts">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="text" id="G)k9ln#xo0JQUSEK93GG">
+                <field name="TEXT">Fizz</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="mz*^%X7UTMrPHh4Cz4jI">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="RbwNyPg=VKTImRb%AI60">
+                <value name="DIVIDEND">
+                  <shadow type="math_number">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="variables_get" id="N#1tb%Q)fj{k%6WX*h]:">
+                    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number">
+                    <field name="NUM">3</field>
+                  </shadow>
+                  <block type="math_number" id="1;jDK@d+mlEEMF{+QnnT">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="t#gs{lR#ned87jlIXi1D">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="variables_set" id="J%*1.n2;gjIW!+=0EoJo">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="text" id="2abkhh;R,5K)GT@jX-{0">
+                <field name="TEXT">Buzz</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="variables_set" id="icFf?5KWdAt0y%Fo1rrX">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="variables_get" id="0O(pBlCk[82_lQY#ww}e">
+                <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="text_print" id="oVV%cH8KJ4RG*8L9j;1C">
+            <value name="TEXT">
+              <shadow type="text" id="BP.SMi]]UZoAh~lqu{@0">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="variables_get" id="#-/2HB/PUnAyS;GucTYH">
+                <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
+
+
+<!-- Answer 10.2 -->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="j|)E.STabg43MEz@hPSI">i</variable>
+    <variable id="o,}g|Oa|Mh|c#`RBNj(@">msg</variable>
+  </variables>
+  <block type="controls_for" id="MaF^^%Fi^l}/T!==Uun1" x="363" y="113">
+    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+    <value name="FROM">
+      <shadow type="math_number" id="rR1]L^=l}u=W)t_1h5n3">
+        <field name="NUM">1</field>
+      </shadow>
+    </value>
+    <value name="TO">
+      <shadow type="math_number" id="h.bM;.tFn@enRP;N2@%C">
+        <field name="NUM">50</field>
+      </shadow>
+    </value>
+    <value name="BY">
+      <shadow type="math_number" id="ZzM-f?tCB(O[WvWeJz~x">
+        <field name="NUM">1</field>
+      </shadow>
+    </value>
+    <statement name="DO">
+      <block type="controls_if" id=".h[?4vdU+vWf8iv*(`Iz">
+        <mutation elseif="2" else="1"/>
+        <value name="IF0">
+          <block type="logic_operation" id="SFH1;byX{5QJf)iqL/!n">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="?(hJGvh`jd]H93sY@~cm">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="math_modulo" id="|:.L$ELk@Ew)wyyA?Q2k">
+                    <value name="DIVIDEND">
+                      <shadow type="math_number" id="zU9/5o`.u$5i4OM32^2b">
+                        <field name="NUM">64</field>
+                      </shadow>
+                      <block type="variables_get" id="Ld*|z=(i?]p{A_(_4#k;">
+                        <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                      </block>
+                    </value>
+                    <value name="DIVISOR">
+                      <shadow type="math_number" id="UA!%x-l*=xdYu6X5is5P">
+                        <field name="NUM">3</field>
+                      </shadow>
+                      <block type="math_number" id="t_-l=d{AnQQ:yMrz|Ewf">
+                        <field name="NUM">3</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="=1:!W@s5|Zp;M`suI@Ql">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id=".[3o:B2TDDFpwIMEwB.}">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="math_modulo" id="Y]HOB1#P0yse1i.S,us)">
+                    <value name="DIVIDEND">
+                      <shadow type="math_number">
+                        <field name="NUM">64</field>
+                      </shadow>
+                      <block type="variables_get" id="zgu_Z#VqxnL3rr9+K7J$">
+                        <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                      </block>
+                    </value>
+                    <value name="DIVISOR">
+                      <shadow type="math_number">
+                        <field name="NUM">3</field>
+                      </shadow>
+                      <block type="math_number" id="7fKRYor=NZGHS,hh{|#w">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=",N~Q,cu9e%[PEv,t{?|5">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="5/RdnVGld_G5TWLx_uIg">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="text" id=";`T)}vg{/mEL5wq_@9w/">
+                <field name="TEXT">Pop</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="W@}RbgC.,sTgvEcHfSIU">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="H(@Mw)mm_6d#kLZqD`zS">
+                <value name="DIVIDEND">
+                  <shadow type="math_number">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="variables_get" id="!CnqQPIE8LW$4(v#=ifz">
+                    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number">
+                    <field name="NUM">3</field>
+                  </shadow>
+                  <block type="math_number" id="CZa+.$^|Hdh4fm]h[|ip">
+                    <field name="NUM">3</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="1$8XTevWjuNcbwGwnq=f">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="variables_set" id="}Y,rS/fXp6qb*#uj71Ts">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="text" id="G)k9ln#xo0JQUSEK93GG">
+                <field name="TEXT">Fizz</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF2">
+          <block type="logic_compare" id="mz*^%X7UTMrPHh4Cz4jI">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_modulo" id="RbwNyPg=VKTImRb%AI60">
+                <value name="DIVIDEND">
+                  <shadow type="math_number">
+                    <field name="NUM">64</field>
+                  </shadow>
+                  <block type="variables_get" id="N#1tb%Q)fj{k%6WX*h]:">
+                    <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+                  </block>
+                </value>
+                <value name="DIVISOR">
+                  <shadow type="math_number">
+                    <field name="NUM">3</field>
+                  </shadow>
+                  <block type="math_number" id="1;jDK@d+mlEEMF{+QnnT">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="t#gs{lR#ned87jlIXi1D">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO2">
+          <block type="variables_set" id="J%*1.n2;gjIW!+=0EoJo">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="text" id="2abkhh;R,5K)GT@jX-{0">
+                <field name="TEXT">Buzz</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="variables_set" id="icFf?5KWdAt0y%Fo1rrX">
+            <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+            <value name="VALUE">
+              <block type="variables_get" id="0O(pBlCk[82_lQY#ww}e">
+                <field name="VAR" id="j|)E.STabg43MEz@hPSI">i</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="text_print" id="oVV%cH8KJ4RG*8L9j;1C">
+            <value name="TEXT">
+              <shadow type="text" id="BP.SMi]]UZoAh~lqu{@0">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="variables_get" id="#-/2HB/PUnAyS;GucTYH">
+                <field name="VAR" id="o,}g|Oa|Mh|c#`RBNj(@">msg</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
