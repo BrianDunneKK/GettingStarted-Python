@@ -1,0 +1,187 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="g([5[9(U6F)o4(=i^)=q">friends</variable>
+    <variable id="DxB]sQ)aZIAO+J^ONV)*">keep_asking</variable>
+    <variable id=".|2xIwy^b,DTEbaSWGOo">name</variable>
+    <variable id="=q}y$qrywdfespQZb9@#">longest_name</variable>
+  </variables>
+  <block type="variables_set" id="kW]x8y3oadvhec*Cr|r(" x="-112" y="-12">
+    <field name="VAR" id="g([5[9(U6F)o4(=i^)=q">friends</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="s82lL7#(A[E3!_8!Y`R9">
+        <mutation items="0"/>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="5m}!!U/]H4goIHdFXf^W">
+        <field name="VAR" id="DxB]sQ)aZIAO+J^ONV)*">keep_asking</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="!Hnzbi:,*(1Bss_2BBk,">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_whileUntil" id="4)ea+gzX6Eri3~Ia[1Et">
+            <field name="MODE">WHILE</field>
+            <value name="BOOL">
+              <block type="variables_get" id="hs9EYstV}6{lAjqNv_n%">
+                <field name="VAR" id="DxB]sQ)aZIAO+J^ONV)*">keep_asking</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="variables_set" id="8IJY=k18D;Pp?XCjL=P,">
+                <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                <value name="VALUE">
+                  <block type="text_prompt_ext" id="y@(z8}~Pq!BFxVkmsmUi">
+                    <mutation type="TEXT"/>
+                    <field name="TYPE">TEXT</field>
+                    <value name="TEXT">
+                      <shadow type="text" id="/O,gK{c_c_;.^rv/@!4*">
+                        <field name="TEXT">abc</field>
+                      </shadow>
+                      <block type="text" id="g#cfHAII,s}]r#,q32I8">
+                        <field name="TEXT">Enter friend's name: </field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_if" id="RrKy5zQgzu|K1)x(aas3">
+                    <mutation else="1"/>
+                    <value name="IF0">
+                      <block type="logic_compare" id="s#fy#I9_9l5OF??gy^or">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="variables_get" id="sBxQ8}SU]wMSOhN0Y:K#">
+                            <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="text" id=",JgrG^FlohA(9U@FO`E;">
+                            <field name="TEXT"/>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="variables_set" id="Zg1muOmvG7nr=O]$S1VX">
+                        <field name="VAR" id="DxB]sQ)aZIAO+J^ONV)*">keep_asking</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id=".u/3G(#WC/?Nv2l3h=bW">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <statement name="ELSE">
+                      <block type="lists_setIndex" id="b+BX=LoHXU8^8yA}cwT1">
+                        <mutation at="false"/>
+                        <field name="MODE">INSERT</field>
+                        <field name="WHERE">LAST</field>
+                        <value name="LIST">
+                          <block type="variables_get" id="`(rrZReZLv9#TuR,r#;f">
+                            <field name="VAR" id="g([5[9(U6F)o4(=i^)=q">friends</field>
+                          </block>
+                        </value>
+                        <value name="TO">
+                          <block type="variables_get" id="u`lOPk:BPH#W42Oe@8[Y">
+                            <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="variables_set" id="]^,L`{FmmP`-[*z60M:G">
+                <field name="VAR" id="=q}y$qrywdfespQZb9@#">longest_name</field>
+                <value name="VALUE">
+                  <block type="text" id="Pq(}RrQGQN`tmKsDQP@Y">
+                    <field name="TEXT"/>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_forEach" id="~SBpT5=+BELHz#PN!SY[">
+                    <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                    <value name="LIST">
+                      <block type="variables_get" id="d[3R-FLirMXwMuyTjowh">
+                        <field name="VAR" id="g([5[9(U6F)o4(=i^)=q">friends</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="controls_if" id="nqg]kQ%Ox|QO)7/w5f?N">
+                        <value name="IF0">
+                          <block type="logic_compare" id="FEi}d*Vz5hr6hLDxR}p]">
+                            <field name="OP">GT</field>
+                            <value name="A">
+                              <block type="text_length" id="YG4m$|3H4f1N+h}BH3V*">
+                                <value name="VALUE">
+                                  <shadow type="text" id="Ku)pmTCimvP(~[.5.p.*">
+                                    <field name="TEXT">abc</field>
+                                  </shadow>
+                                  <block type="variables_get" id="!v#nxP8h9ik1pk39NR{#">
+                                    <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text_length" id="W69rAm`hrS_{8iZTu0Se">
+                                <value name="VALUE">
+                                  <shadow type="text">
+                                    <field name="TEXT">abc</field>
+                                  </shadow>
+                                  <block type="variables_get" id="tnA=0-fJ`_46)CZLkC#0">
+                                    <field name="VAR" id="=q}y$qrywdfespQZb9@#">longest_name</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="variables_set" id="q:8IjO=kERrKM!?h@g]+">
+                            <field name="VAR" id="=q}y$qrywdfespQZb9@#">longest_name</field>
+                            <value name="VALUE">
+                              <block type="variables_get" id="ncgGYO4D|4Gq{H}/UCJv">
+                                <field name="VAR" id=".|2xIwy^b,DTEbaSWGOo">name</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="text_print" id=";D55a7pPkMJD}P#demnV">
+                        <value name="TEXT">
+                          <shadow type="text" id="s#XYIi?u|Go%fNWb726%">
+                            <field name="TEXT">abc</field>
+                          </shadow>
+                          <block type="text_join" id="}LOw_eae~[?!gS8.%ri3">
+                            <mutation items="2"/>
+                            <value name="ADD0">
+                              <block type="text" id="35p]=.C@X:D,Mcxl|~p{">
+                                <field name="TEXT">Longest name: </field>
+                              </block>
+                            </value>
+                            <value name="ADD1">
+                              <block type="variables_get" id="]J*rG]=sdv?rNNFb#77D">
+                                <field name="VAR" id="=q}y$qrywdfespQZb9@#">longest_name</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
