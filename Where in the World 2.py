@@ -1,11 +1,14 @@
+import csv
+import webbrowser
 from random import randint
 
-countries = [
-    {"Country":"Ireland", "Continent":"Europe", "Population":4857000,  "Capital":"Dublin"},
-    {"Country":"Brazil", "Continent":"South America", "Population":210147125,  "Capital":"Brasilia"},
-    {"Country":"Vietnam", "Continent":"Asia", "Population":94569072,  "Capital":"Hanoi"},
-    {"Country":"Andorra", "Continent":"Europe", "Population":77281,  "Capital":"Andorra"}
-    ]
+
+countries = []
+with open('GettingStarted-Python\\Countries.csv', newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    countries.extend(reader)
+for c in countries:
+    c["Population"] = int(c["Population"])
 
 msg = "The countries in Europe are: "
 for c in countries:
@@ -28,4 +31,6 @@ if answer == c["Capital"]:
     print ("Correct!\n")
 else:
     print ("Incorrect ... the capital is " + c["Capital"] + "\n")
-
+print("Opening captal in Google maps ...\n")
+url = "https://www.google.com/maps/search/?api=1&query={},{}".format(c["CapitalLatitude"], c["CapitalLongitude"])
+webbrowser.open(url)

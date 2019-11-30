@@ -1,0 +1,222 @@
+Country,Capital,Continent,Code,Region,Population,Area,CapitalLatitude,CapitalLongitude,Trade
+Afghanistan,Kabul,Asia,AF,SouthernAsia,35530000,652864,34.516666667,69.183333000,-2110
+Albania,Tirana,Europe,AL,SouthernEurope,2930000,28748,41.316666667,19.816667000,-2707
+Algeria,Algiers,Africa,DZ,NorthernAfrica,41318000,2381741,36.750000000,3.050000000,-17099
+American Samoa,Pago Pago,Australia,AS,Polynesia,56000,199,-14.266666667,-170.700000000,-99
+Andorra,Andorra la Vella,Europe,AD,SouthernEurope,77000,468,42.500000000,1.516667000,-1255
+Angola,Luanda,Africa,AO,MiddleAfrica,29784000,1246700,-8.833333333,13.216667000,12221
+Anguilla,The Valley,North America,AI,Caribbean,15000,91,18.216666667,-63.050000000,-153
+Antigua and Barbuda,Saint John's,North America,AG,Caribbean,102000,442,17.116666667,-61.850000000,-429
+Argentina,Buenos Aires,South America,AR,SouthAmerica,44271000,2780400,-34.583333333,-58.666667000,2124
+Armenia,Yerevan,Europe,AM,WesternAsia,2930000,29743,40.166666667,44.500000000,-1455
+Aruba,Oranjestad,North America,AW,Caribbean,105000,180,12.516666667,-70.033333000,-1022
+Australia,Canberra,Australia,AU,Oceania,24451000,7692060,-35.266666667,149.133333000,224
+Austria,Vienna,Europe,AT,WesternEurope,8736000,83871,48.200000000,16.366667000,-3795
+Azerbaijan,Baku,Europe,AZ,WesternAsia,9828000,86600,40.383333333,49.866667000,611
+Bahamas,Nassau,North America,BS,Caribbean,395000,13940,25.083333333,-77.350000000,-2539
+Bahrain,Manama,Asia,BH,WesternAsia,1493000,771,26.233333333,50.566667000,-1856
+Bangladesh,Dhaka,Asia,BD,SouthernAsia,164670000,147570,23.716666667,90.400000000,-16593
+Barbados,Bridgetown,North America,BB,Caribbean,286000,431,13.100000000,-59.616667000,-1104
+Belarus,Minsk,Europe,BY,EasternEurope,9468000,207600,53.900000000,27.566667000,-4050
+Belgium,Brussels,Europe,BE,WesternEurope,11429000,30528,50.833333333,4.333333000,25321
+Belize,Belmopan,Central America,BZ,CentralAmerica,375000,22966,17.250000000,-88.766667000,-706
+Benin,Porto-Novo,Africa,BJ,WesternAfrica,11176000,114763,6.483333333,2.616667000,-2220
+Bermuda,Hamilton,North America,BM,NorthernAmerica,61000,53,32.283333333,-64.783333000,-963
+Bhutan,Thimphu,Asia,BT,SouthernAsia,808000,38394,27.466666667,89.633333000,-1072
+Bolivia,La Paz,South America,BO,SouthAmerica,11052000,1098581,-16.500000000,-68.150000000,-1405
+Bosnia and Herzegovina,Sarajevo,Europe,BA,SouthernEurope,3507000,51209,43.866666667,18.416667000,-3803
+Botswana,Gaborone,Africa,BW,SouthernAfrica,2292000,582000,-24.633333333,25.900000000,1218
+Brazil,Brasilia,South America,BR,SouthAmerica,209288000,8515767,-15.783333333,-47.916667000,47683
+British Virgin Islands,Road Town,North America,VG,Caribbean,31000,151,18.416666667,-64.616667000,-444
+Brunei Darussalam,Bandar Seri Begawan,Asia,BN,South-easternAsia,429000,5765,4.883333333,114.933333000,2197
+Bulgaria,Sofia,Europe,BG,EasternEurope,7085000,111002,42.683333333,23.316667000,-2787
+Burkina Faso,Ouagadougou,Africa,BF,WesternAfrica,19193000,272967,12.366666667,-1.516667000,-1680
+Burundi,Bujumbura,Africa,BI,EasternAfrica,10864000,27830,-3.366666667,29.350000000,-502
+Cambodia,Phnom Penh,Asia,KH,South-easternAsia,16005000,181035,11.550000000,104.916667000,-2109
+Cameroon,Yaounde,Africa,CM,MiddleAfrica,24054000,475650,3.866666667,11.516667000,-2768
+Canada,Ottawa,Central America,CA,NorthernAmerica,36624000,9984670,45.416666667,-75.700000000,-14043
+Cayman Islands,George Town,North America,KY,Caribbean,62000,264,19.300000000,-81.383333000,-972
+Central African Republic,Bangui,Africa,CF,MiddleAfrica,4659000,622984,4.366666667,18.583333000,66
+Chad,N'Djamena,Africa,TD,MiddleAfrica,14900000,1284000,12.100000000,15.033333000,619
+Chile,Santiago,South America,CL,SouthAmerica,18055000,756102,-33.450000000,-70.666667000,1080
+China,Beijing,Asia,CN,EasternAsia,1409517000,9600000,39.916666667,116.383333000,530285
+Colombia,Bogota,South America,CO,SouthAmerica,49066000,1141748,4.600000000,-74.083333000,-13786
+Comoros,Moroni,Africa,KM,EasternAfrica,814000,2235,-11.700000000,43.233333000,-173
+Cook Islands,Avarua,Australia,CK,Polynesia,17000,236,-21.200000000,-159.766667000,-84
+Costa Rica,San Jose,Central America,CR,CentralAmerica,4906000,51100,9.933333333,-84.083333000,-5414
+Croatia,Zagreb,Europe,HR,SouthernEurope,4189000,56594,45.800000000,16.000000000,-8182
+Cuba,Havana,North America,CU,Caribbean,11485000,109884,23.116666667,-82.350000000,13089
+Cyprus,Nicosia,Europe,CY,WesternAsia,1180000,9251,35.166666667,33.366667000,-4684
+Czech Republic,Prague,Europe,CZ,EasternEurope,10618000,78868,50.083333333,14.466667000,20932
+Democratic Republic of the Congo,Kinshasa,Africa,CD,MiddleAfrica,81340000,2344858,-4.316666667,15.300000000,-803
+Denmark,Copenhagen,Europe,DK,NorthernEurope,5734000,42921,55.666666667,12.583333000,9222
+Djibouti,Djibouti,Africa,DJ,EasternAfrica,957000,23200,11.583333333,43.150000000,-852
+Dominica,Roseau,North America,DM,Caribbean,74000,750,15.300000000,-61.400000000,-191
+Dominican Republic,Santo Domingo,North America,DO,Caribbean,10767000,48671,18.466666667,-69.900000000,-18978
+Ecuador,Quito,South America,EC,SouthAmerica,16625000,257217,-0.216666667,-78.500000000,609
+Egypt,Cairo,Africa,EG,NorthernAfrica,97553000,1002000,30.050000000,31.250000000,-35545
+El Salvador,San Salvador,Central America,SV,CentralAmerica,6378000,21041,13.700000000,-89.200000000,-4519
+Equatorial Guinea,Malabo,Africa,GQ,MiddleAfrica,1268000,28052,3.750000000,8.783333000,1987
+Eritrea,Asmara,Africa,ER,EasternAfrica,5069000,117600,15.333333333,38.933333000,-3310
+Estonia,Tallinn,Europe,EE,NorthernEurope,1310000,45227,59.433333333,24.716667000,-1807
+Ethiopia,Addis Ababa,Africa,ET,EasternAfrica,104957000,1104300,9.033333333,38.700000000,-17397
+Falkland Islands,Stanley,South America,FK,SouthAmerica,3000,12173,-51.700000000,-57.850000000,-13
+Faroe Islands,Torshavn,Europe,FO,NorthernEurope,49000,1393,62.000000000,-6.766667000,216
+Fiji,Suva,Australia,FJ,Melanesia,906000,18272,-18.133333333,178.416667000,-1391
+Finland,Helsinki,Europe,FI,NorthernEurope,5523000,338440,60.166666667,24.933333000,-3176
+France,Paris,Europe,FR,WesternEurope,64980000,551500,48.866666667,2.333333000,-71670
+French Polynesia,Papeete,Australia,PF,Polynesia,283000,4000,-17.533333333,-149.566667000,-1319
+Gabon,Libreville,Africa,GA,MiddleAfrica,2025000,267668,0.383333333,9.450000000,-79
+Gambia,Banjul,Africa,GM,WesternAfrica,2101000,11295,13.450000000,-16.566667000,-439
+Georgia,Tbilisi,Europe,GE,WesternAsia,3912000,69700,41.683333333,44.833333000,-5122
+Germany,Berlin,Europe,DE,WesternEurope,82114000,357376,52.516666667,13.400000000,280080
+Ghana,Accra,Africa,GH,WesternAfrica,28834000,238537,5.550000000,-0.216667000,-4718
+Gibraltar,Gibraltar,Europe,GI,SouthernEurope,35000,6,36.133333333,-5.350000000,-299
+Greece,Athens,Europe,GR,SouthernEurope,11160000,131957,37.983333333,23.733333000,-19784
+Greenland,Nuuk,Central America,GL,NorthernAmerica,56000,2166086,64.183333333,-51.750000000,-71
+Grenada,Saint George's,North America,GD,Caribbean,108000,345,12.050000000,-61.750000000,-320
+Guam,Hagatna,Australia,GU,Micronesia,164000,549,13.466666667,144.733333000,-99
+Guatemala,Guatemala City,Central America,GT,CentralAmerica,16914000,108889,14.616666667,-90.516667000,-6415
+Guinea,Conakry,Africa,GN,WesternAfrica,12717000,245857,9.500000000,-13.700000000,-329
+Guinea-Bissau,Bissau,Africa,GW,WesternAfrica,1861000,36125,11.850000000,-15.583333000,673
+Guyana,Georgetown,South America,GY,SouthAmerica,778000,214969,6.800000000,-58.150000000,-172
+Haiti,Port-au-Prince,North America,HT,Caribbean,10981000,27750,18.533333333,-72.333333000,-2332
+Honduras,Tegucigalpa,Central America,HN,CentralAmerica,9265000,112492,14.100000000,-87.216667000,-4791
+Hong Kong,N/A,Asia,HK,EasternAsia,7365000,1106,0.000000000,0.000000000,-30536
+Hungary,Budapest,Europe,HU,EasternEurope,9722000,93024,47.500000000,19.083333000,11027
+Iceland,Reykjavik,Europe,IS,NorthernEurope,335000,103000,64.150000000,-21.950000000,-1254
+India,New Delhi,Asia,IN,SouthernAsia,1339180000,3287263,28.600000000,77.200000000,-96378
+Indonesia,Jakarta,Asia,ID,South-easternAsia,263991000,1910931,-6.166666667,106.816667000,8837
+Iran,Tehran,Asia,IR,SouthernAsia,81163000,1628750,35.700000000,51.416667000,10294
+Iraq,Baghdad,Asia,IQ,WesternAsia,38275000,435052,33.333333333,44.400000000,-18490
+Ireland,Dublin,Europe,IE,NorthernEurope,4762000,69797,53.316666667,-6.233333000,52318
+Isle of Man,Douglas,Europe,IM,NorthernEurope,84000,572,54.150000000,-4.483333000,-99
+Israel,Jerusalem,Asia,IL,WesternAsia,8322000,22072,31.766666667,35.233333000,-5232
+Italy,Rome,Europe,IT,SouthernEurope,59360000,302073,41.900000000,12.483333000,56951
+Jamaica,Kingston,North America,JM,Caribbean,2890000,10990,18.000000000,-76.800000000,-3565
+Japan,Tokyo,Asia,JP,EasternAsia,127484000,377930,35.683333333,139.750000000,38008
+Jordan,Amman,Asia,JO,WesternAsia,9702000,89318,31.950000000,35.933333000,-11698
+Kazakhstan,Astana,Asia,KZ,CentralAsia,18204000,2724902,51.166666667,71.416667000,11601
+Kenya,Nairobi,Africa,KE,EasternAfrica,49700000,591958,-1.283333333,36.816667000,-8420
+Kiribati,Tarawa,Australia,KI,Micronesia,116000,726,-0.883333333,169.533333000,-113
+Kuwait,Kuwait City,Asia,KW,WesternAsia,4136000,17818,29.366666667,47.966667000,15413
+Kyrgyzstan,Bishkek,Asia,KG,CentralAsia,6045000,199949,42.866666667,74.600000000,-2421
+Laos,Vientiane,Asia,LA,South-easternAsia,6858000,236800,17.966666667,102.600000000,-2447
+Latvia,Riga,Europe,LV,NorthernEurope,1950000,64573,56.950000000,24.100000000,-2163
+Lebanon,Beirut,Asia,LB,WesternAsia,6082000,10452,33.866666667,35.500000000,-17007
+Lesotho,Maseru,Africa,LS,SouthernAfrica,2233000,30355,-29.316666667,27.483333000,-1079
+Liberia,Monrovia,Africa,LR,WesternAfrica,4732000,111369,6.300000000,-10.800000000,-86
+Libya,Tripoli,Africa,LY,NorthernAfrica,6375000,1676198,32.883333333,13.166667000,-4261
+Liechtenstein,Vaduz,Europe,LI,WesternEurope,38000,160,47.133333333,9.516667000,-99
+Lithuania,Vilnius,Europe,LT,NorthernEurope,2890000,65286,54.683333333,25.316667000,-2476
+Luxembourg,Luxembourg,Europe,LU,WesternEurope,584000,2586,49.600000000,6.116667000,-6285
+Macedonia,Skopje,Europe,MK,SouthernEurope,2083000,25713,42,21.433333,-1972
+Madagascar,Antananarivo,Africa,MG,EasternAfrica,25571000,587295,-18.916666667,47.516667000,-709
+Malawi,Lilongwe,Africa,MW,EasternAfrica,18622000,118484,-13.966666667,33.783333000,-774
+Malaysia,Kuala Lumpur,Asia,MY,South-easternAsia,31624000,330323,3.166666667,101.700000000,21039
+Maldives,Male,Asia,MV,SouthernAsia,436000,300,4.166666667,73.500000000,-1988
+Mali,Bamako,Africa,ML,WesternAfrica,18542000,1240192,12.650000000,-8.000000000,520
+Malta,Valletta,Europe,MT,SouthernEurope,431000,315,35.883333333,14.500000000,-3143
+Marshall Islands,Majuro,Australia,MH,Micronesia,53000,181,7.100000000,171.383333000,-58
+Mauritania,Nouakchott,Africa,MR,WesternAfrica,4420000,1030700,18.066666667,-15.966667000,-551
+Mauritius,Port Louis,Africa,MU,EasternAfrica,1265000,1969,-20.150000000,57.483333000,-2461
+Mexico,Mexico City,Central America,MX,CentralAmerica,129163000,1964375,19.433333333,-99.133333000,-13181
+Micronesia,Palikir,Australia,FM,Micronesia,106000,702,6.916666667,158.150000000,-34
+Moldova,Chisinau,Europe,MD,EasternEurope,4051000,33846,47,28.85,-1975
+Monaco,Monaco,Europe,MC,WesternEurope,39000,2,43.733333333,7.416667000,-99
+Mongolia,Ulaanbaatar,Asia,MN,EasternAsia,3076000,1564116,47.916666667,106.916667000,1559
+Montenegro,Podgorica,Europe,ME,SouthernEurope,629000,13812,42.433333333,19.266667000,-1908
+Montserrat,Plymouth,North America,MS,Caribbean,5000,103,16.700000000,-62.216667000,-32
+Morocco,Rabat,Africa,MA,NorthernAfrica,35740000,446550,34.016666667,-6.816667000,-18838
+Mozambique,Maputo,Africa,MZ,EasternAfrica,29669000,799380,-25.950000000,32.583333000,-1943
+Myanmar,Rangoon,Asia,MM,South-easternAsia,53371000,676577,16.800000000,96.150000000,-4023
+Namibia,Windhoek,Africa,NA,SouthernAfrica,2534000,824116,-22.566666667,17.083333000,-1905
+Nauru,Yaren,Australia,NR,Micronesia,11000,21,-0.547700000,166.920867000,-99
+Nepal,Kathmandu,Asia,NP,SouthernAsia,29305000,147181,27.716666667,85.316667000,-4547
+Netherlands,Amsterdam,Europe,NL,WesternEurope,17036000,41542,52.350000000,4.916667000,90745
+New Caledonia,Noumea,Australia,NC,Melanesia,276000,18575,-22.266666667,166.450000000,-1079
+New Zealand,Wellington,Australia,NZ,Oceania,4706000,268107,-41.300000000,174.783333000,-2589
+Nicaragua,Managua,Central America,NI,CentralAmerica,6218000,130373,12.133333333,-86.250000000,-3701
+Niger,Niamey,Africa,NE,WesternAfrica,21477000,1267000,13.516666667,2.116667000,-933
+Nigeria,Abuja,Africa,NG,WesternAfrica,190886000,923768,9.083333333,7.533333000,67551
+Niue,Alofi,Australia,NU,Polynesia,2000,260,-19.016666667,-169.916667000,-99
+North Korea,Pyongyang,Asia,KP,EasternAsia,25491000,120538,39.016666667,125.750000000,-1748
+Northern Mariana Islands,Saipan,Australia,MP,Micronesia,55000,457,15.200000000,145.750000000,-2818
+Norway,Oslo,Europe,NO,NorthernEurope,5305000,386194,59.916666667,10.750000000,16647
+Oman,Muscat,Asia,OM,WesternAsia,4636000,309500,23.616666667,58.583333000,1195
+Pakistan,Islamabad,Asia,PK,SouthernAsia,197016000,796095,33.683333333,73.050000000,-26464
+Palau,Melekeok,Australia,PW,Micronesia,22000,459,7.483333333,134.633333000,-147
+Palestine,Jerusalem,Asia,PS,WesternAsia,4921000,6020,31.7666666666667,35.233333,-4128
+Panama,Panama City,Central America,PA,CentralAmerica,4099000,75320,8.966666667,-79.533333000,-11061
+Papua New Guinea,Port Moresby,Australia,PG,Melanesia,8251000,462840,-9.450000000,147.183333000,-114
+Paraguay,Asuncion,South America,PY,SouthAmerica,6811000,406752,-25.266666667,-57.666667000,-1259
+Peru,Lima,South America,PE,SouthAmerica,32166000,1285216,-12.050000000,-77.050000000,-145
+Philippines,Manila,Asia,PH,South-easternAsia,104918000,300000,14.600000000,120.966667000,-29596
+Poland,Warsaw,Europe,PL,EasternEurope,38171000,312679,52.250000000,21.000000000,7937
+Portugal,Lisbon,Europe,PT,SouthernEurope,10330000,92226,38.716666667,-9.133333000,-11922
+Puerto Rico,San Juan,North America,PR,Caribbean,3663000,8868,18.466666667,-66.116667000,-99
+Qatar,Doha,Asia,QA,WesternAsia,2639000,11607,25.283333333,51.533333000,25196
+Republic of Congo,Brazzaville,Africa,CG,MiddleAfrica,5261000,342000,-4.250000000,15.283333000,-7253
+Romania,Bucharest,Europe,RO,EasternEurope,19679000,238391,44.433333333,26.100000000,-11024
+Russia,Moscow,Europe,RU,EasternEurope,143990000,17098246,55.750000000,37.600000000,103234
+Rwanda,Kigali,Africa,RW,EasternAfrica,12208000,26338,-1.950000000,30.050000000,-1157
+Saint Helena,Jamestown,Africa,SH,WesternAfrica,4000,308,-15.933333333,-5.716667000,-48
+Saint Kitts and Nevis,Basseterre,North America,KN,Caribbean,55000,261,17.300000000,-62.716667000,-280
+Saint Lucia,Castries,North America,LC,Caribbean,179000,539,14.000000000,-61.000000000,-535
+Saint Martin,Marigot,North America,MF,Caribbean,40000,34,18.073100000,-63.082200000,-99
+Saint Pierre and Miquelon,Saint-Pierre,Central America,PM,NorthernAmerica,6000,242,46.766666667,-56.183333000,-1976
+Saint Vincent and the Grenadines,Kingstown,Central America,VC,Caribbean,110000,389,13.133333333,-61.216667000,-288
+Samoa,Apia,Australia,WS,Polynesia,196000,2842,-13.816666667,-171.766667000,-294
+San Marino,San Marino,Europe,SM,SouthernEurope,33000,61,43.933333333,12.416667000,-99
+Sao Tome and Principe,Sao Tome,Africa,ST,MiddleAfrica,204000,964,0.333333333,6.733333000,-129
+Saudi Arabia,Riyadh,Asia,SA,WesternAsia,32938000,2206714,24.650000000,46.700000000,46426
+Senegal,Dakar,Africa,SN,WesternAfrica,15851000,196712,14.733333333,-17.633333000,-2838
+Serbia,Belgrade,Europe,RS,SouthernEurope,8791000,88499,44.833333333,20.500000000,-4379
+Seychelles,Victoria,Africa,SC,EasternAfrica,95000,457,-4.616666667,55.450000000,-498
+Sierra Leone,Freetown,Africa,SL,WesternAfrica,7557000,72300,8.483333333,-13.233333000,-492
+Singapore,Singapore,Asia,SG,South-easternAsia,5709000,719,1.283333333,103.850000000,46862
+Slovakia,Bratislava,Europe,SK,EasternEurope,5448000,49035,48.150000000,17.116667000,2409
+Slovenia,Ljubljana,Europe,SI,SouthernEurope,2080000,20273,46.050000000,14.516667000,939
+Solomon Islands,Honiara,Australia,SB,Melanesia,611000,28896,-9.433333333,159.950000000,-17
+Somalia,Mogadishu,Africa,SO,EasternAfrica,14742000,637657,2.066666667,45.333333000,394
+South Africa,Pretoria,Africa,ZA,SouthernAfrica,56717000,1221037,-25.700000000,28.216667000,-633
+South Korea,Seoul,Asia,KR,EasternAsia,50982000,100284,37.550000000,126.983333000,89236
+South Sudan,Juba,Africa,SS,EasternAfrica,12576000,658841,4.850000000,31.616667000,1640
+Spain,Madrid,Europe,ES,SouthernEurope,46354000,505944,40.400000000,-3.683333000,-20762
+Sri Lanka,Colombo,Asia,LK,SouthernAsia,20877000,65610,6.916666667,79.833333000,-8955
+Sudan,Khartoum,Africa,SD,NorthernAfrica,40533000,-99,15.600000000,32.533333000,-5861
+Suriname,Paramaribo,South America,SR,SouthAmerica,563000,163820,5.833333333,-55.166667000,193
+Swaziland,Mbabane,Africa,SZ,SouthernAfrica,1367000,17363,-26.316666667,31.133333000,1149
+Sweden,Stockholm,Europe,SE,NorthernEurope,9911000,438574,59.333333333,18.050000000,-1263
+Switzerland,Bern,Europe,CH,WesternEurope,8476000,41291,46.916666667,7.466667000,35534
+Syria,Damascus,Asia,SY,WesternAsia,18270000,185180,33.500000000,36.300000000,-1118
+Tajikistan,Dushanbe,Asia,TJ,CentralAsia,8921000,142600,38.550000000,68.766667000,-2132
+Tanzania,Dar es Salaam,Africa,TZ,EasternAfrica,57310000,947303,-6.800000000,39.283333000,-3134
+Thailand,Bangkok,Asia,TH,South-easternAsia,69038000,513120,13.750000000,100.516667000,18260
+Timor-Leste,Dili,Asia,TL,South-easternAsia,1296000,14919,-8.583333333,125.600000000,-553
+Togo,Lome,Africa,TG,WesternAfrica,7798000,56785,6.116666667,1.216667000,-1001
+Tokelau,Atafu,Australia,TK,Polynesia,1000,12,-9.166667000,-171.833333000,-1
+Tonga,Nuku'alofa,Australia,TO,Polynesia,108000,747,-21.133333333,-175.200000000,-196
+Trinidad and Tobago,Port of Spain,North America,TT,Caribbean,1369000,5127,10.650000000,-61.516667000,-249
+Tunisia,Tunis,Africa,TN,NorthernAfrica,11532000,163610,36.800000000,10.183333000,-5973
+Turkey,Ankara,Europe,TR,WesternAsia,80745000,783562,39.933333333,32.866667000,-55996
+Turkmenistan,Ashgabat,Asia,TM,CentralAsia,5758000,488100,37.950000000,58.383333000,1125
+Turks and Caicos Islands,Grand Turk,North America,TC,Caribbean,35000,948,21.466666667,-71.133333000,-385
+Tuvalu,Funafuti,Australia,TV,Polynesia,11000,26,-8.516666667,179.216667000,-12
+Uganda,Kampala,Africa,UG,EasternAfrica,42863000,241550,0.316666667,32.550000000,-996
+Ukraine,Kyiv,Europe,UA,EasternEurope,44223000,603500,50.433333333,30.516667000,-2815
+United Arab Emirates,Abu Dhabi,Asia,AE,WesternAsia,9400000,83600,24.466666667,54.366667000,-6296
+United Kingdom,London,Europe,GB,NorthernEurope,66182000,242495,51.500000000,-0.083333000,-219713
+United States of America,Washington,Central America,US,NorthernAmerica,324460000,9833517,38.883333000,-77.000000000,-796494
+Uruguay,Montevideo,South America,UY,SouthAmerica,3457000,173626,-34.850000000,-56.166667000,-1173
+US Virgin Islands,Charlotte Amalie,North America,VI,Caribbean,105000,347,18.350000000,-64.933333000,-99
+Uzbekistan,Tashkent,Asia,UZ,CentralAsia,31911000,448969,41.316666667,69.250000000,2295
+Vanuatu,Port-Vila,Australia,VU,Melanesia,276000,12189,-17.733333333,168.316667000,-366
+Vatican City,Vatican City,Europe,VA,SouthernEurope,1000,0,41.900000000,12.450000000,-99
+Venezuela,Caracas,South America,VE,SouthAmerica,31977000,912050,10.483333333,-66.866667000,3407
+Vietnam,Hanoi,Asia,VN,South-easternAsia,95541000,330967,21.033333333,105.850000000,2520
+Wallis and Futuna Islands,Mata-Utu,Australia,WF,Polynesia,12000,142,-13.950000000,-171.933333000,-51
+Western Sahara,El-Aaiún,Africa,EH,NorthernAfrica,553000,266000,27.153611000,-13.203333000,-99
+Yemen,Sanaa,Asia,YE,WesternAsia,28250000,527968,15.350000000,44.200000000,-6291
+Zambia,Lusaka,Africa,ZM,EasternAfrica,17094000,752612,-15.416666667,28.283333000,-937
+Zimbabwe,Harare,Africa,ZW,EasternAfrica,16530000,390757,-17.816666667,31.033333000,-2379
