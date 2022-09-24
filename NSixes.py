@@ -9,6 +9,7 @@ def roll_N_dice(n):
     dice = []
     for i in range(n):
         dice.append(roll_dice())
+    print(dice)
     return dice
 
 def check_for_sixes(N_dice):
@@ -22,4 +23,3 @@ while (check_for_sixes(roll_N_dice(n)) == False):
 
 print("It took " + str(count) + " turns.")
 
-dice = roll_N_dice(n)

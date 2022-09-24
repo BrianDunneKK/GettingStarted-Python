@@ -31,6 +31,6 @@ if answer == c["Capital"]:
     print ("Correct!\n")
 else:
     print ("Incorrect ... the capital is " + c["Capital"] + "\n")
-print("Opening captal in Google maps ...\n")
+print("Opening the capital in Google maps ...\n")
 url = "https://www.google.com/maps/search/?api=1&query={},{}".format(c["CapitalLatitude"], c["CapitalLongitude"])
 webbrowser.open(url)

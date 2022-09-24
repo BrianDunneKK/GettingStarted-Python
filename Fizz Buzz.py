@@ -1,5 +1,5 @@
 i = 1
-while (i<=0):
+while (i<=20):
     if (i%3 == 0):
         print ("Fizz")
     elif (i%5 == 0):
