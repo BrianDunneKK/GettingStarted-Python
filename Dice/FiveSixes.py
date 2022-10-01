@@ -11,8 +11,10 @@ def roll_five_dice():
 def check_for_sixes(five_dice):
     return (sum(five_dice) == 30)
     
+print(f"The probability of 5 sixes is {6**5}")
+
 count = 1
 while (check_for_sixes(roll_five_dice()) == False):
     count += 1
 
-print("It took " + str(count) + " turns.")
+print(f"It took {count} turns.")

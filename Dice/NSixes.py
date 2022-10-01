@@ -9,7 +9,7 @@ def roll_N_dice(n):
     dice = []
     for i in range(n):
         dice.append(roll_dice())
-    print(dice)
+    #print(dice)
     return dice
 
 def check_for_sixes(N_dice):
@@ -17,9 +17,11 @@ def check_for_sixes(N_dice):
 
 n = int(input("How many dice will I use? "))
 
+print(f"The probability of {n} sixes is {6**n}")
+
 count = 1
 while (check_for_sixes(roll_N_dice(n)) == False):
     count += 1
 
-print("It took " + str(count) + " turns.")
+print(f"It took {count} turns.")
 
