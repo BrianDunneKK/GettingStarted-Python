@@ -1,0 +1,3 @@
+This is a very simple book. It was created to be a simple test case for the
+Python code written by the ninjas in CoderDojo Kilkenny. It's vey short so it
+should be very easy to translate to any language.
